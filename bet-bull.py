@@ -4,15 +4,14 @@ from web3 import Web3
 
 def display_logo():
     logo = """
-    
-   ___       __  __            _ 
-  / _ \     |  \/  |          (_)
- | | | |_  _| \  / | ___   ___ _ 
- | | | \ \/ / |\/| |/ _ \ / _ \ |
- | |_| |>  <| |  | | (_) |  __/ |
-  \___//_/\_\_|  |_|\___/ \___|_|
-                                 
-                                 
+                                           _                 
+                                          (_)                
+  _   _  ___  _   _ _ __   __ _ _ __  _ __ _ _ __   ___ ___  
+ | | | |/ _ \| | | | '_ \ / _` | '_ \| '__| | '_ \ / __/ _ \ 
+ | |_| | (_) | |_| | | | | (_| | |_) | |  | | | | | (_|  __/ 
+  \__, |\___/ \__,_|_| |_|\__, | .__/|_|  |_|_| |_|\___\___| 
+   __/ |                   __/ | |                           
+  |___/                   |___/|_|                           
     """
     print(logo)
 
@@ -29,7 +28,7 @@ with open('ContractABI.json', 'r') as abi_file:
         contract_abi = abi_content
 
 # Connect to Arbitrum network (replace with your provider)
-w3 = Web3(Web3.HTTPProvider('https://arb1.arbitrum.io/rpc'))
+w3 = Web3(Web3.HTTPProvider('https://arbitrum-mainnet.infura.io/v3/ce2903cddcea4f74bd61aa536f02d187'))
 
 # Check if connected to the network
 if not w3.is_connected():
