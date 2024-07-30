@@ -75,7 +75,7 @@ def claim_rewards(epoch):
     max_fee_per_gas = base_fee + max_priority_fee
     txn = contract.functions.claim([epoch]).build_transaction({
         'chainId': 42161,  # Arbitrum mainnet chain ID
-        'gas': 138860,
+        'gas': 168860,
         'maxFeePerGas': max_fee_per_gas,
         'maxPriorityFeePerGas': max_priority_fee,
         'nonce': nonce
