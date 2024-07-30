@@ -29,7 +29,7 @@ with open('ContractABI.json', 'r') as abi_file:
         contract_abi = abi_content
 
 # Connect to Arbitrum network (replace with your provider)
-w3 = Web3(Web3.HTTPProvider('https://arbitrum-mainnet.infura.io/v3/ce2903cddcea4f74bd61aa536f02d187'))
+w3 = Web3(Web3.HTTPProvider('https://arb1.arbitrum.io/rpc'))
 
 # Check if connected to the network
 if not w3.is_connected():
