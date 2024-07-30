@@ -1,7 +1,9 @@
 # allora-pancake-bot
-![GTZv4vzX0AAWbc0](https://github.com/user-attachments/assets/c9523153-78a9-4607-9b3d-8d7f93c9756e)
+![Screenshot (103)](https://github.com/user-attachments/assets/5b538a66-2411-4c3b-bef3-9eb07c2dca0a)
 
-* Connect your EVM metamask wallet [here](https://app.allora.network/points/campaign/pancakeswap-predictions?ref=eyJyZWZlcnJlcl9pZCI6IjliM2ZlN2JjLWE1YTYtNGZjOC1iNWM3LWU2NTY1ODcyZTE2MSJ9)
+
+
+* Connect your EVM metamask wallet [here](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6IjVmNmUwNmMwLTU5YzQtNDM1NC05MmIxLWFmMzcyYjA1ZTgyMSJ9)
 * The more we bet on [pancake](https://pancakeswap.finance/prediction?token=ETH&chain=arb) the more we get Allora points
 
 ## Install Dependecies
@@ -14,7 +16,7 @@ pip3 install web3
 pip install web3
 ```
 ```console
-git clone https://github.com/0xmoei/allora-pancake-bot
+git clone https://github.com/youngpriince/allora-pancake-bot
 cd allora-pancake-bot
 ```
 
@@ -38,5 +40,3 @@ python3 bet-bear.py
 ```
 Ctrl+A+D
 
-## Help this guide
-Don't forget to add pull request to correct the repository issues or add your ideas
