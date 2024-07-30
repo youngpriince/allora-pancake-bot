@@ -140,7 +140,7 @@ try:
             base_fee = w3.eth.get_block('latest')['baseFeePerGas']
             max_priority_fee = w3.to_wei('2', 'gwei')
             max_fee_per_gas = base_fee + max_priority_fee
-            gas_limit = 138860
+            gas_limit = 168860
             total_cost = bet_amount_wei + (gas_limit * max_fee_per_gas)
             if account_balance < total_cost:
                 print(f"Insufficient funds to place bet on epoch {current_epoch}. Needed: {total_cost}, Available: {account_balance}")
